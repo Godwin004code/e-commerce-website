@@ -1,0 +1,151 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.mobile-head {
+  display: none;
+}
+
+.lay-width {
+  width: 90%;
+}
+.shop-card {
+  width: 25%;
+}
+
+.deal-img {
+  height: 800px;
+}
+
+all-dot {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 10%;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  background: grey;
+  margin-right: 1rem;
+  border-radius: 50%;
+}
+.active-dot {
+  background: #58A0E2;
+}
+.deals {
+  width: 25%;
+}
+.sliders {
+  width: 72%;
+}
+
+.card.mb-4 {
+  width: 90%;
+}
+
+.marque {
+  width: 55%;
+}
+.flex-wrap .d-flex.mb-4 {
+  width: 22%;
+}
+.footer-top {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+.footer-top h2 {
+  font-size: 14px;
+}
+.footer-top li {
+  list-style: none;
+}
+.footer-top a {
+  font-size: 12px;
+  text-decoration: none;
+}
+.footer-under {
+  padding: 2rem 0;
+  border-top: 1px solid #424242
+}
+.footer-under .three {
+  width: 20%;
+
+}
+.footer-under h2 {
+  font-size: 14px;
+}
+.footer-under h3 {
+  font-size: 12px;
+  font-weight: 400;
+
+}
+.w.position-relative {
+  width: 70%;
+}
+@media only screen and (max-width: 768px) {
+  .w.position-relative {
+    width: 100%;
+  }
+  .mobile-head {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .flex-wrap {
+    flex-direction: column;
+  }
+  .flex-wrap .d-flex.mb-4 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .head {
+    display: none;
+  }
+  .slide-cont {
+    flex-direction: column;
+  }
+  .sliders {
+    order: 1;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .slider-img {
+    width: 100%;
+  }
+  .deals, .card.mb-4 {
+    order: 2;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .card.me-4 {
+    width: 40%;
+  }
+  .footer-top li:last-child {
+    margin-bottom: 2rem;
+  }
+  .footer-top, .footer-under {
+    flex-direction: column;
+    width: 90%;
+    margin: 0;
+  }
+  .footer-under div {
+    margin-bottom: 2rem;
+  }
+  .footer-under .three {
+    width: 70%;
+  }
+}
