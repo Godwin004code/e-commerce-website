@@ -30,9 +30,8 @@ const HomeTab = () => {
       <SliderContainer />
       </div>
       </div>
-<marquee direction='left'>
-      <section className='lay-width mx-auto d-flex justify-content-between'>
-      <div className="card mb-4 me-4 marque" >
+      <section className='d-flex justify-content-between marques'>
+      <div className="mb-4 me-4 marque" >
   <Image src={First} className="card-img-top" alt="..." />
   <div className="card-body">
     <h5 className="card-title">Camera HD lightbuld</h5>
@@ -45,7 +44,7 @@ const HomeTab = () => {
     </button>
   </div>
 </div>
-<div className="card mb-4 me-4 marque" >
+      <div className=" mb-4 me-4 marque" >
   <Image src={First} className="card-img-top" alt="..." />
   <div className="card-body">
     <h5 className="card-title">Camera HD lightbuld</h5>
@@ -58,7 +57,7 @@ const HomeTab = () => {
     </button>
   </div>
 </div>
-<div className="card mb-4 me-4 marque">
+<div className=" mb-4 me-4 marque" >
   <Image src={First} className="card-img-top" alt="..." />
   <div className="card-body">
     <h5 className="card-title">Camera HD lightbuld</h5>
@@ -71,7 +70,33 @@ const HomeTab = () => {
     </button>
   </div>
 </div>
-<div className="card mb-4 me-4 marque" >
+<div className=" mb-4 me-4 marque" >
+  <Image src={First} className="card-img-top" alt="..." />
+  <div className="card-body">
+    <h5 className="card-title">Camera HD lightbuld</h5>
+    <h5 className="card-title">#10,000</h5>
+    <button href="#" className="btn btn-primary stretched-link me-3">
+    <AiOutlineShoppingCart />
+    </button>
+    <button href="#" className="btn btn-primary stretched-link">
+    <FaHeart />
+    </button>
+  </div>
+</div>
+<div className=" mb-4 me-4 marque">
+  <Image src={First} className="card-img-top" alt="..." />
+  <div className="card-body">
+    <h5 className="card-title">Camera HD lightbuld</h5>
+    <h5 className="card-title">#10,000</h5>
+    <button href="#" className="btn btn-primary stretched-link me-3">
+    <AiOutlineShoppingCart />
+    </button>
+    <button href="#" className="btn btn-primary stretched-link">
+    <FaHeart />
+    </button>
+  </div>
+</div>
+<div className=" mb-4 me-4 marque" >
   <Image src={First} className="card-img-top" alt="..." />
   <div className="card-body">
     <h5 className="card-title">Camera HD lightbuld</h5>
@@ -89,7 +114,7 @@ const HomeTab = () => {
 
 
       </section>
-      </marquee>
+     
       <div className='mb-2 mt-5 lay-width mx-auto d-flex justify-content-between'>
         <h2>
           Shop

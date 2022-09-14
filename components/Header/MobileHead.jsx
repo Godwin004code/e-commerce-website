@@ -9,7 +9,7 @@ const MobileHead = ({ setShowNav }) => {
     }
   return (
     <header className='mobile-head'>
-    <section class="d-flex justify-content-between mt-3">
+    <section class="d-flex justify-content-between ">
     <div class="d-flex justify-content-between" style={{width: '10%'}}>
       <h2>LE</h2>
     </div>
@@ -24,6 +24,7 @@ const MobileHead = ({ setShowNav }) => {
 
 </section>
     </header>
+    
   )
 }
 

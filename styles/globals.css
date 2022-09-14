@@ -10,7 +10,9 @@ body {
 * {
   box-sizing: border-box;
 }
-
+body {
+  width: 100%;
+}
 .mobile-head {
   display: none;
 }
@@ -42,12 +44,22 @@ all-dot {
   border-radius: 50%;
 }
 .active-dot {
-  background: #58A0E2;
+  background: #d3d75d;
+}
+.marques {
+  overflow-x: auto;
+width: 100%;
+padding: 1rem 1rem;
+}
+.marque {
+  width: 50%;
+ 
 }
 .deals {
   width: 25%;
 }
 .sliders {
+  
   width: 72%;
 }
 
@@ -55,9 +67,7 @@ all-dot {
   width: 90%;
 }
 
-.marque {
-  width: 55%;
-}
+
 .flex-wrap .d-flex.mb-4 {
   width: 22%;
 }
@@ -99,10 +109,20 @@ all-dot {
   .w.position-relative {
     width: 100%;
   }
+  .hhdd {
+   
+    width: 100%;
+  }
   .mobile-head {
     display: block;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
+    position: fixed;
+    background-color: #424242;
+    padding: 1rem 1.2rem;
+    top: 0;
+    
+    z-index: 200;
   }
   .flex-wrap {
     flex-direction: column;
@@ -122,6 +142,7 @@ all-dot {
     order: 1;
     width: 90%;
     margin: 0 auto;
+    margin-top: 3rem;
   }
   .slider-img {
     width: 100%;
@@ -147,5 +168,11 @@ all-dot {
   }
   .footer-under .three {
     width: 70%;
+  }
+  .marques {
+    overflow-x: auto;
+  }
+  .marque {
+    width: 100%;
   }
 }
