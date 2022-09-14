@@ -45,11 +45,11 @@ const SliderContainer = () => {
 
     return (
         
-        <div className="w position-relative">
+        <div className="w position-relative ">
                 <div className="slide-img w-100">
-                <Image width={800} height={500} src={img} alt="slide img" className='slider-img'  />     
+                <Image width={900} height={500} src={img} alt="slide img" className='slider-img'  />     
                 </div>
-                <div className="position-absolute top-0 right-0  mt-5  py-1 px-1" style={{backgroundColor: '#58A0E2', color: 'white'}}>
+                <div className="position-absolute top-0 end-0  mt-0   py-1 px-1" style={{backgroundColor: '#58A0E2', color: 'white'}}>
                     <h2>{text}</h2>
                 </div>
                 {/* <SlidesArrow next={nextSlide} prev={prevSlide} /> */}

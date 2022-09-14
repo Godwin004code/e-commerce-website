@@ -44,7 +44,7 @@ all-dot {
   border-radius: 50%;
 }
 .active-dot {
-  background: #d3d75d;
+  background: #58A0E2;
 }
 .marques {
   overflow-x: auto;
@@ -66,7 +66,9 @@ padding: 1rem 1rem;
 .card.mb-4 {
   width: 90%;
 }
-
+.slider-img {
+  width: 100%;
+}
 
 .flex-wrap .d-flex.mb-4 {
   width: 22%;
@@ -103,7 +105,7 @@ padding: 1rem 1rem;
 
 }
 .w.position-relative {
-  width: 70%;
+  width: 100%;
 }
 @media only screen and (max-width: 768px) {
   .w.position-relative {
@@ -118,7 +120,8 @@ padding: 1rem 1rem;
     width: 100%;
     margin: 0 auto;
     position: fixed;
-    background-color: #424242;
+    background-color: rgba(0, 0, 0, 0.25);
+    
     padding: 1rem 1.2rem;
     top: 0;
     
@@ -140,7 +143,7 @@ padding: 1rem 1rem;
   }
   .sliders {
     order: 1;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 3rem;
   }
