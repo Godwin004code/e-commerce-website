@@ -10,6 +10,9 @@ body {
 * {
   box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+}
 body {
   width: 100%;
 }
@@ -55,8 +58,18 @@ width: 100%;
 padding: 1rem 1rem;
 }
 .marque {
-  width: 50%;
- 
+  width: 300px;
+  color: white;
+}
+.marque .card-body {
+  width: 300px;
+  padding: 1rem 1rem;
+}
+.marque h5:nth-child(2) {
+  margin: .5rem 0;
+}
+.marque img {
+  width: 500px;
 }
 .deals {
   width: 25%;
@@ -181,5 +194,8 @@ padding: 1rem 1rem;
   }
   .marque {
     width: 100%;
+  }
+  .marque .card-body {
+    width: 260px;
   }
 }

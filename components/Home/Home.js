@@ -83,8 +83,8 @@ const HomeTab = () => {
     </button>
   </div>
 </div>
-<div className=" mb-4 me-4 marque">
-  <Image src={First} className="card-img-top" alt="..." />
+<div className="mb-4 me-4 marque">
+  <Image src={First} alt="..." />
   <div className="card-body">
     <h5 className="card-title">Camera HD lightbuld</h5>
     <h5 className="card-title">#10,000</h5>
@@ -143,24 +143,6 @@ const HomeTab = () => {
     </div>
       </div>
 
-      <div className='d-flex mb-4 flex-column justify-content-center p-4 border border-opacity-80' style={{backgroundColor: ' #F3F3F3', }}>
-    <div>
-    <Image src={Second} className="card-img-top" alt="..." />
-    </div>
-    <div>
-      <p style={{fontSize: '15'}} className='text-center'>
-      Sony Alpha ILCE 6600M 24.2 MP Mirrorless Digital SLR Camera with 18-135 mm Zoom Lens
-      </p>
-      <h2 className='text-center'>599 $</h2>
-    </div>
-    <div className='d-flex '></div>
-    <div href="#" className="btn stretched-link mb-3" style={{background: '#454D4A', color: 'white'}}>
-    <AiOutlineShoppingCart />
-    </div>
-    <div href="#" className="btn stretched-link" style={{background: '#454D4A', color: 'white'}}>
-    <FaHeart />
-    </div>
-      </div>
       <div className='d-flex mb-4 flex-column justify-content-center p-4 border border-opacity-80' style={{backgroundColor: ' #F3F3F3', }}>
     <div>
     <Image src={Second} className="card-img-top" alt="..." />
