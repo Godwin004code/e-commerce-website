@@ -13,6 +13,9 @@ body {
 body {
   width: 100%;
 }
+body.remove-scrollbar {
+  overflow-y: hidden;
+}
 .mobile-head {
   display: none;
 }
@@ -120,7 +123,8 @@ padding: 1rem 1rem;
     width: 100%;
     margin: 0 auto;
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: white;
+    box-shadow: 0px 0px 10px #58A0E2;
     
     padding: 1rem 1.2rem;
     top: 0;

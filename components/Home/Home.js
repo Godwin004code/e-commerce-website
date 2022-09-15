@@ -20,7 +20,7 @@ const HomeTab = () => {
     <Head />
     <MobileHead setShowNav={setShowNav} />
     <div className={showNav === true ? 'd-flex' : 'd-none'}>
-    <MobileNav />
+    <MobileNav setShowNav={setShowNav} />
     </div>
       <div className='slide-cont lay-width d-flex justify-content-between my-5 mb-2 mx-auto' >
       <div className='deals'>
