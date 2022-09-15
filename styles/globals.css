@@ -59,7 +59,6 @@ padding: 1rem 1rem;
 }
 .marque {
   width: 300px;
-  color: white;
 }
 .marque .card-body {
   width: 300px;
@@ -163,9 +162,14 @@ padding: 1rem 1rem;
     width: 100%;
     margin: 0 auto;
     margin-top: 3rem;
+    
   }
   .slider-img {
     width: 100%;
+  }
+  .slider-img img {
+
+    height: 900px;
   }
   .deals, .card.mb-4 {
     order: 2;

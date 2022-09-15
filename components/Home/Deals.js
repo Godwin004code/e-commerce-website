@@ -12,6 +12,7 @@ const Deals = () => {
   <Image src={First} className="card-img-top" alt="..." />
   <div className="card-body">
     <h5 className="card-title">Camera HD lightbuld</h5>
+    <h5 className="card-title">#10,000</h5>
     <button href="#" className="btn btn-primary stretched-link me-3">
     <AiOutlineShoppingCart />
     </button>
@@ -24,6 +25,7 @@ const Deals = () => {
   <Image src={Second} className="card-img-top" alt="..." />
   <div className="card-body">
     <h5 className="card-title">Apple </h5>
+    <h5 className="card-title">#10,000</h5>
     <button href="#" className="btn btn-primary stretched-link me-3">
     <AiOutlineShoppingCart />
     </button>
